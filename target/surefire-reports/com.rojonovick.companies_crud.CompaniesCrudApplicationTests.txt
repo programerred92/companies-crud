@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.rojonovick.companies_crud.CompaniesCrudApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.141 s -- in com.rojonovick.companies_crud.CompaniesCrudApplicationTests
