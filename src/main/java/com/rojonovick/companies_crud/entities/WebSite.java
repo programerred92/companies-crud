@@ -1,12 +1,15 @@
-package entities;
+package com.rojonovick.companies_crud.entities;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.io.Serializable;
 
 @Entity
 @Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class WebSite implements Serializable {
 
     @Id

@@ -1,6 +1,6 @@
-package services.company;
+package com.rojonovick.companies_crud.services;
 
-import entities.Company;
+import com.rojonovick.companies_crud.entities.Company;
 
 public interface CompanyService {
 

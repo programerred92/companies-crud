@@ -1,6 +1,6 @@
-package repositories;
+package com.rojonovick.companies_crud.repositories;
 
-import entities.Company;
+import com.rojonovick.companies_crud.entities.Company;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
