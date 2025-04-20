@@ -1,19 +1,17 @@
-package services.company;
+package com.rojonovick.companies_crud.services;
 
-import entities.Category;
-import entities.Company;
+import com.rojonovick.companies_crud.entities.Category;
+import com.rojonovick.companies_crud.entities.Company;
 import jakarta.transaction.Transactional;
 import lombok.AllArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import repositories.CompanyRepository;
+import com.rojonovick.companies_crud.repositories.CompanyRepository;
 
 import java.util.NoSuchElementException;
 import java.util.Objects;
 
 @Service
 @Transactional
-@Slf4j
 @AllArgsConstructor
 public class CompanyServiceImpl implements CompanyService {
 

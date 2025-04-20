@@ -1,4 +1,4 @@
-package entities;
+package com.rojonovick.companies_crud.entities;
 
 public enum Category {
     SOCIAL_NETWORK,
